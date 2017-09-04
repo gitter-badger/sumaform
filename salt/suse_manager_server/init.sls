@@ -12,6 +12,7 @@ include:
   - suse_manager_server.prometheus
   - suse_manager_server.filebeat
   - suse_manager_server.salt_master
+  - suse_manager_server.benchmark
 
 {% if '2.1' in grains['version'] %}
 # remove SLES product release package, it's replaced by SUSE Manager's
